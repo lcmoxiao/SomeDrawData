@@ -1,1 +1,187 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T08:59:55.500Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.7" etag="KjQW2MRaUnf8bUrcRd5p" type="github"><diagram id="MFFPd2TC_tjoeIzMeQbP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-06T08:23:37.185Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="WIJVXtz9DYWFT8suFe3g" version="20.2.8" type="github">
+  <diagram id="MFFPd2TC_tjoeIzMeQbP" name="第 1 页">
+    <mxGraphModel dx="2066" dy="2180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-1" value="page1&lt;br&gt;&lt;br&gt;96 个 QLogItem&lt;br&gt;96 * 40 byte&lt;br&gt;= 4096 byte&lt;br&gt;= 4kb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="770" width="130" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-2" value="page2&lt;br&gt;&lt;br&gt;96 个 QLogItem&lt;br&gt;96 * 40 byte&lt;br&gt;= 4096 byte&lt;br&gt;= 4kb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="770" width="130" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-3" value="page3&lt;br&gt;&lt;br&gt;96 个 QLogItem&lt;br&gt;96 * 40 byte&lt;br&gt;= 4096 byte&lt;br&gt;= 4kb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="770" width="130" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-4" value="page n&lt;br&gt;&lt;br&gt;96 个 QLogItem&lt;br&gt;96 * 40 byte&lt;br&gt;= 4096 byte&lt;br&gt;= 4kb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="647.5" y="770" width="130" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-5" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="770" width="150" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="172" y="630" as="sourcePoint" />
+            <mxPoint x="172" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-8" value="log front 指针" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tjsEzgIkFWjGHwlxF8qA-7">
+          <mxGeometry x="-0.1615" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="302" y="630" as="sourcePoint" />
+            <mxPoint x="302" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-10" value="write front 指针" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tjsEzgIkFWjGHwlxF8qA-9">
+          <mxGeometry x="-0.1615" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="572" y="630" as="sourcePoint" />
+            <mxPoint x="572" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-13" value="log rear 指针" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tjsEzgIkFWjGHwlxF8qA-12">
+          <mxGeometry x="-0.1615" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-16" value="QLogItem 192" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="770" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-17" value="QLogItem 96" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="770" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-18" value="QLogItem 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="770" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-19" value="QLogItem n*96" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="647.5" y="770" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-20" value="QLogItem 95" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="1190" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-21" value="QLogItem n*96 + 95" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="647.5" y="1190" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-23" value="page1&lt;br&gt;&lt;br&gt;96 个 QLogItem&lt;br&gt;96 * 40 byte&lt;br&gt;= 4096 byte&lt;br&gt;= 4kb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-130" width="130" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-24" value="QLogItem 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-130" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-25" value="QLogItem 95" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="290" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="-100.5" as="sourcePoint" />
+            <mxPoint x="230" y="-100.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-28" value="front" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tjsEzgIkFWjGHwlxF8qA-26">
+          <mxGeometry x="0.0545" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="-40" as="sourcePoint" />
+            <mxPoint x="230" y="-40" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-31" value="rear" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tjsEzgIkFWjGHwlxF8qA-30">
+          <mxGeometry x="0.0545" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-32" value="QLogItem 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-70" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-33" value="page1&lt;br&gt;&lt;br&gt;96 个 QLogItem&lt;br&gt;96 * 40 byte&lt;br&gt;= 4096 byte&lt;br&gt;= 4kb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-130" width="130" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-34" value="QLogItem 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-130" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-35" value="QLogItem 95" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="290" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="695" y="-40.5" as="sourcePoint" />
+            <mxPoint x="585" y="-40.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-37" value="front" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tjsEzgIkFWjGHwlxF8qA-36">
+          <mxGeometry x="0.0545" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="695" y="-100.5" as="sourcePoint" />
+            <mxPoint x="585" y="-100.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-39" value="rear" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tjsEzgIkFWjGHwlxF8qA-38">
+          <mxGeometry x="0.0545" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-40" value="QLogItem 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-70" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-41" value="page1&lt;br&gt;&lt;br&gt;96 个 QLogItem&lt;br&gt;96 * 40 byte&lt;br&gt;= 4096 byte&lt;br&gt;= 4kb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="-130" width="130" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-42" value="QLogItem 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="-130" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-43" value="QLogItem 95" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="290" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1035" y="-100.5" as="sourcePoint" />
+            <mxPoint x="925" y="-100.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-45" value="front" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tjsEzgIkFWjGHwlxF8qA-44">
+          <mxGeometry x="0.0545" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1025" y="319.5" as="sourcePoint" />
+            <mxPoint x="915" y="319.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-47" value="rear" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tjsEzgIkFWjGHwlxF8qA-46">
+          <mxGeometry x="0.0545" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-48" value="QLogItem 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="-70" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-50" value="单一环形缓存池满了的情况下，(rear + 1)%size = front" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="185" y="-210" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tjsEzgIkFWjGHwlxF8qA-51" value="存在分页时是，(rear + 1)%(size*pageNum) = front 时为满.&lt;br&gt;write rear == log rear 时表明无待写入的新日志；&lt;br&gt;(write front + 1)%(size*pageNum) = write rear 时表示全部写入了。&lt;br&gt;&lt;br&gt;每次触发写入时，同步 write rear == log rear，写入成功时 write front = (write front + 1)%(size*pageNum)&lt;br&gt;&lt;br&gt;当缓存达到上限时，每存入一日志，擦除 log front 的头日志，写入到更新后的 log rear 中。如果达到了 write front 则还要同步更新 write front 的值。&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="490" width="825" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
