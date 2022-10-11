@@ -1,18 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T03:25:03.064Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Z_tCoQLlTyD9NILTC2Ih" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T08:56:05.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="SZvu0tl-x-jbe421BVSx" version="20.4.0" type="github">
   <diagram id="wA2QcCBewpJCbxgyK5B2" name="第 1 页">
-    <mxGraphModel dx="1517" dy="1064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="m26_v9GqzO_6HuygvY9k-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m26_v9GqzO_6HuygvY9k-8" target="m26_v9GqzO_6HuygvY9k-11">
+        <mxCell id="m26_v9GqzO_6HuygvY9k-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m26_v9GqzO_6HuygvY9k-8" target="m26_v9GqzO_6HuygvY9k-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="145" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m26_v9GqzO_6HuygvY9k-8" value="主干 Merge 时&lt;br&gt;触发 master 分支&lt;br&gt;录制回放测试" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="m26_v9GqzO_6HuygvY9k-8" value="主干 Merge 时&lt;br&gt;触发 master 分支&lt;br&gt;录制回放测试" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="90" y="40" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="m26_v9GqzO_6HuygvY9k-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m26_v9GqzO_6HuygvY9k-9" target="m26_v9GqzO_6HuygvY9k-11">
+        <mxCell id="m26_v9GqzO_6HuygvY9k-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m26_v9GqzO_6HuygvY9k-9" target="m26_v9GqzO_6HuygvY9k-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="395" y="200" />
@@ -20,50 +20,67 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="m26_v9GqzO_6HuygvY9k-13" value="通过远程编译参数代码注入测试类型，&lt;br&gt;修改 UUID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="m26_v9GqzO_6HuygvY9k-12">
+        <mxCell id="m26_v9GqzO_6HuygvY9k-13" value="通过远程编译参数代码注入测试类型，&lt;br&gt;修改 UUID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="m26_v9GqzO_6HuygvY9k-12" vertex="1" connectable="0">
           <mxGeometry x="-0.3975" relative="1" as="geometry">
             <mxPoint x="-57" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m26_v9GqzO_6HuygvY9k-9" value="22点-8点检索触发&lt;br&gt;前 24 小时未合入主干&lt;br&gt;feature 分支&lt;br&gt;录制回放测试" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="m26_v9GqzO_6HuygvY9k-9" value="22点-8点检索触发&lt;br&gt;前 24 小时未合入主干&lt;br&gt;feature 分支&lt;br&gt;录制回放测试" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="335" y="30" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="m26_v9GqzO_6HuygvY9k-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m26_v9GqzO_6HuygvY9k-11" target="m26_v9GqzO_6HuygvY9k-15">
+        <mxCell id="m26_v9GqzO_6HuygvY9k-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m26_v9GqzO_6HuygvY9k-11" target="m26_v9GqzO_6HuygvY9k-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m26_v9GqzO_6HuygvY9k-11" value="录制回放测试中将测试数据信息输出到 log 中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="m26_v9GqzO_6HuygvY9k-11" value="录制回放测试中将测试数据信息输出到 log 中" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="77.5" y="260" width="135" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="m26_v9GqzO_6HuygvY9k-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m26_v9GqzO_6HuygvY9k-15" target="m26_v9GqzO_6HuygvY9k-17">
+        <mxCell id="m26_v9GqzO_6HuygvY9k-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m26_v9GqzO_6HuygvY9k-15" target="m26_v9GqzO_6HuygvY9k-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m26_v9GqzO_6HuygvY9k-15" value="测试结束后通过 buildNum 从 cos 仓库获取本次测试的 log" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="m26_v9GqzO_6HuygvY9k-15" value="测试结束后通过 buildNum 从 cos 仓库获取本次测试的 log" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="380" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="m26_v9GqzO_6HuygvY9k-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m26_v9GqzO_6HuygvY9k-17" target="m26_v9GqzO_6HuygvY9k-19">
+        <mxCell id="m26_v9GqzO_6HuygvY9k-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m26_v9GqzO_6HuygvY9k-17" target="m26_v9GqzO_6HuygvY9k-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m26_v9GqzO_6HuygvY9k-21" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="m26_v9GqzO_6HuygvY9k-20">
+        <mxCell id="m26_v9GqzO_6HuygvY9k-21" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="m26_v9GqzO_6HuygvY9k-20" vertex="1" connectable="0">
           <mxGeometry x="-0.3455" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m26_v9GqzO_6HuygvY9k-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m26_v9GqzO_6HuygvY9k-17" target="m26_v9GqzO_6HuygvY9k-22">
+        <mxCell id="m26_v9GqzO_6HuygvY9k-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m26_v9GqzO_6HuygvY9k-17" target="m26_v9GqzO_6HuygvY9k-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m26_v9GqzO_6HuygvY9k-24" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="m26_v9GqzO_6HuygvY9k-23">
+        <mxCell id="m26_v9GqzO_6HuygvY9k-24" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="m26_v9GqzO_6HuygvY9k-23" vertex="1" connectable="0">
           <mxGeometry x="-0.2692" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m26_v9GqzO_6HuygvY9k-17" value="使用 buildNum 取 log 文件，&lt;br&gt;并通过 UUID 判断&lt;br&gt;是否为 feature 测试" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="m26_v9GqzO_6HuygvY9k-17" value="使用 buildNum 取 log 文件，&lt;br&gt;并通过 UUID 判断&lt;br&gt;是否为 feature 测试" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="505" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="m26_v9GqzO_6HuygvY9k-19" value="归档主干数据表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="m26_v9GqzO_6HuygvY9k-19" value="归档主干数据表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="85" y="665" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="m26_v9GqzO_6HuygvY9k-22" value="归档需求分支数据表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="m26_v9GqzO_6HuygvY9k-22" value="归档需求分支数据表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="335" y="665" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fZd4VRiZ2e04T9h5s8A-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9fZd4VRiZ2e04T9h5s8A-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9fZd4VRiZ2e04T9h5s8A-1" value="feature 数据对比&lt;br&gt;动态获取该分支的 master commit id" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9fZd4VRiZ2e04T9h5s8A-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9fZd4VRiZ2e04T9h5s8A-3" target="9fZd4VRiZ2e04T9h5s8A-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9fZd4VRiZ2e04T9h5s8A-3" value="通过 master commit id 确认构建号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9fZd4VRiZ2e04T9h5s8A-4" value="获取这个构建号之前的主干数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="330" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
